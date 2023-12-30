@@ -1,0 +1,1707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>ET</RootNamespace>
+    <ProjectGuid>{83CB2F38-727A-48A1-8903-DAF3AF5143EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.ThirdParty</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\Player\</OutputPath>
+    <DefineConstants>UNITY_2022_3_14;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;ODIN_INSPECTOR;ODIN_INSPECTOR_3;LETAI_TRUESHADOW;UNITY;TextMeshPro;ENABLE_CODES;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.14f1c1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="E:\VS2022Other\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\MongoDB.Driver.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\DnsClient.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\NLog.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.Rocks.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\AOT\Sirenix.Serialization.AOTGenerated.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Utilities.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.Pdb.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\SixLabors.ImageSharp.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\CommandLine.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\ICSharpCode.SharpZipLib.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\System.Text.Encoding.CodePages.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\MongoDB.Libmongocrypt.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\Source\Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Editor\I2\Editor\Unity XCode\UnityEditor.iOS_I2Loc.Xcode.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\Source\Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Text.Encoding.CodePages.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Newtonsoft.Json.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Scripts\ThirdParty\Demigiant\DemiLib\Core\DemiLib.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Utilities.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Editor\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Numerics.Vectors.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\MongoDB.Driver.Core.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\wxlog.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Serialization.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Buffers.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\SharpCompress.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\System.Buffers.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Editor\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Editor\Demigiant\DemiLib\Editor\DemiEditor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\AssetsTools.NET.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Memory.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.Mdb.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenPro.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\wx-editor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\MongoDB.Bson.dll" />
+    <Analyzer Include="E:\UnityEngine\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="E:\UnityEngine\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceBannerAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\PackedGrid\PackedGridSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\Matrix2x2.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\WorldManifold.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomAdapters\GridView\GridParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Controls\FingersDPadScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\VertexAttachment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\ITupleProvider.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\AspectRatioFitterByLayoutElement.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ServiceModel\ProtoBehaviorExtensionElement.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Basic\BasicTableViewOptionsPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\TypeSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\DateTimePicker\ShowDateTimePickerButton.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersCrossPlatformInputReflectionScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersJoystickAnywhereComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\DefaultValueDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\ViewHolders\BaseVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\ShapeCastInput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\OSAInternal.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceInterstitialEvents.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomAdapters\GridView\GridAdapter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\ViewHolders\BidirectionalVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\ColliderPolygon.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Input\TableViewText.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Animations\AnimationCancelling.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\CharSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonAnimation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\BooleanSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\IO\Pools\FIFOCachingPool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ContactEdge.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceInitilizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\DifferentPrefabPerOrientation\ViewHolders\PortraitVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\DemosUtil.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoIgnoreAttribute.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Chat\ChatExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\IColumnState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ContactSolver.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Shapes\ChainShape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\RuntimeTypeModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\GridWithCategories\GridWithCategoriesSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SelectAndDelete\SelectAndDeleteSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\ScrollViews\UnityScrollRectProxy.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Hierarchy\IHierarchyNodeViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\DataHelpers\LazyList.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Slot.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Hierarchy\IHierarchyParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Mesh Generation\MeshRendererBuffers.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Simple\SimpleSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\ContentSizeOrPositionChangeParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersRotateOrbitComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\AndroidAgent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\Following\PointFollower.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Input\TableViewFloatingDropdown.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\OSAMath.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\AdditionalComponents\OSAPercentageContentPaddingSetter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\ImmutableCollectionDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\ByteSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityLevelPlayInterstitial.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\TUI\TUIConfig.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\BufferExtension.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\Extensions\DirectoryExtension.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Ropes\RopeTuning.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonRootMotionBase.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Input\ITableViewFloatingDropdown.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\RectTransformEdgeDragger.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\OneTouchRotateGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceEvents.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ChainAndCircleContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\DistanceProxy.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomParams\BaseParamsWithPrefabAndLazyData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\Settings.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\NestedScrollViews\NestedScrollViewsExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\NestedScrollViews\ChildGridExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\GridView\Specialized\GridWithCategories\ICategoryModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\WheelJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceConstants.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\GridView\Specialized\GridWithCategories\CellType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Ropes\RopeBend.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\ContactID.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Table\TableViewExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\LongPressGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\DeviceInfo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\ListDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Shapes\ShapeType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomAdapters\GridView\SubComponents\GridViewsHolderFinder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\AsyncETTaskCompletedMethodBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Table\TableViewSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\ContactManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\GridWithCategories\GridWithCategoriesExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\IContactFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\DateTimePicker\DateTimePickerAdapter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\AnimationReferenceAsset.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\NavigationManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\WireType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\OSAException.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\RotateGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Shapes\CircleShape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\OneTouchRotateGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Simplex.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\ScreenAutoRotationPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceError.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceJSON.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\Models\BidirectionalModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\TapGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Tuple\TupleAdapter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersImageGestureHelperComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\BroadPhase.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\ITableAdapter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Mesh Generation\SpineMesh.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\ScrollViews\InputFieldInScrollRectFixerBase.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\MemberSpecifiedDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Bugly\BuglyInit.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\MouseJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\TypeModel.InputOutput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\FieldDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\AbstractViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\AttachmentRegionExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ServiceModel\ProtoOperationBehavior.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TupleViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Skeleton.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Input\TableViewTextInputController.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Callbacks.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Tuple\ITupleAdapter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ChainAndPolygonContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Main\MainSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Position.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\AtlasUtilities.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersDragDropComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\ViewHolders\AdVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TableValueSortType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\RevoluteJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\ViewHolders\OrangeVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\ComputeVisibilityManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersFirstPersonControllerScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\ISerializerProxy.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityRewardedVideoManual.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\ViewHolders\GreenVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\ViewsHolderFinder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\IncrementalItemFetch\IncrementalItemFetchExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Helpers.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Grid\GridExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\DistanceJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\AnimatedInsertRemove\AnimatedInsertRemoveExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\NestedScrollViewsSameDirection\NestedScrollViewsSameDirectionSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Mesh Generation\DoubleBuffered.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimplePullToRefresh\SimplePullToRefreshExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\DifferentPrefabPerOrientation\Models\CommonModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceRewardedVideoAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\AdditionalComponents\OSAContentDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\DotNETCoreCompat.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Animations\AnimationParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\Common\IInitializable8.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\GestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\Common\UIUtils8.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceMediationSettings.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourcePlacement.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Gallery\GalleryScale.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\BufferPool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\AABB.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\Matrix3x3.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Simple\SimpleExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\SimpleJSON\SimpleJSON.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonRootMotion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Compiler\CompilerDelegates.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Util\OSASnapperFocusedItemInfo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Mesh Generation\SkeletonRendererInstruction.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\GridView\Specialized\GridWithCategories\ICellModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\SimpleImageColorBouncer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\ExposedList.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtility.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\UISimple\OSASimpleScrollView.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomParams\BaseParamsWithPrefabAndData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\SkeletonDataModifierAssets\BlendModeMaterials\BlendModeMaterialsAsset.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\MaterialChecks.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\MetaType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleNestedScrollViews\SimpleNestedScrollViewsEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\SubType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceOfferwallAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersScrollViewComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Ropes\RopeJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\ClipVertex.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\DateTimePicker\DateTimePickerDialog.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TableViewConst.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceSegment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimationComplete.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Extra\AsyncLoadingUIController.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Util\Animations\ExpandCollapseAnimationState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonMecanim.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\ScaleGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\ITypeId.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Extra\AsyncBufferredTableData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\NullDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\DifferentPrefabPerOrientation\DifferentPrefabPerOrientationExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Skin.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\DistanceJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\StringSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\IUpdatable.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\Models\BaseModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\OSA.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\EdgeAndCircleContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\SimpleFPSCounter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\IO\SimpleImageDownloader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Profile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtilityBone.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityBanner.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Bone.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\GearJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\DataHelpers\LazyDataHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Animations\AnimationCancellingEvents.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Ropes\Rope.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\ExpandCollapseOnClick.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceRewardedVideoEvents.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\ItemDragging\DraggableItem.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Compiler\Local.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\SwipeGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\BclHelpers.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\ViewHolders\ExpandableVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\MultiplePrefabsSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\SimplexCache.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\BlendModeMaterials.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\RevoluteJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\DataHelpers\SimpleDataHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ContactPool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleNestedScrollViews\SimpleNestedScrollViewsExampleChildList.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\Int32Serializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Animations\AnimationFunctionType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoContractAttribute.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\CollisionUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleFilterable\FilterableToggle.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersOneTouchScaleAxisComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersPlatformMoveJumpComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\SimpleMultiplePrefabsSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Input\TableViewFloatingDropdownController.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\ScrollViews\InputFieldInScrollRectFixerTMPro.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityInitialization.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonRendererCustomMaterials\SkeletonRendererCustomMaterials.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\HierarchyWithStickyHeaders\HierarchyWithStickyHeadersSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomParams\BaseParamsWithPrefab.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\StringUtil.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\TimelineExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\DiscreteScrollbar.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\AttributeMap.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\ViewHolders\SimpleBaseVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimplePullToRefresh\SimplePullToRefreshSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TableData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\CallbackSet.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\DefaultContactFilter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\ExpandToVariableSize\ExpandItemToVariableSizeSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\List\ListNavigationManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\PanGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ContactImpulse.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimationEnd.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\SettingsTriState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\DumpLogger.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\CommandPanels\LabelWithSliderPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\ITableViewCommandPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceRewardedVideoLevelPlayAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\Models\AdModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\BaseParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\DecimalSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoIncludeAttribute.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\TagDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\DateTimeSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\ITableColumns.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\WeldJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtilityConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\DifferentPrefabPerOrientation\ViewHolders\BaseVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\DemoScene\IronSourceDemoScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\AnimationStateData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityLevelPlayBanner.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\Attachment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\BuildUtilities.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceBannerLevelPlayAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityLevelPlayRewardedVideoManual.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\SkeletonDataCompatibility.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Hierarchy\HierarchyExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceSegmentAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\HierarchyWithStickyHeaders\OSAHierarchyStickyHeader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\Packer2DBox.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\IProtoOutputT.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\DiscriminatedUnion.Serializable.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoReader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\SystemTypeSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\ValueMember.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\AttachmentType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ExtensibleUtil.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityImpressionData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonRenderer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\GestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\DistanceAlgorithm.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonGraphic.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\SkeletonLoader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersPanRotateScaleComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\ScrollbarFixer8.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\Extensions\GameObjectExtension.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\CommandPanels\ButtonWithInputPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\ConstraintData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\DistanceInput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\PulleyJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\Contact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Atlas.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\IProtoTypeSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\CommandPanels\LabelWithToggle.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\ProtoSyntax.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\TestScripts\UniTaskCancelTest.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Tuple\Basic\BasicHeaderValueViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Island.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Hierarchy\IHierarchyNodeModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\DataFormat.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\Color.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineEvent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\PanGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\Extensions\TransformExtension.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\ScaleGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody2D.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\PolygonAndCircleContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\IDestructionListener.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersThirdPersonControllerScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\ItemsDescriptor.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\EventDataReferenceAsset.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\OSATitle.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\ImageGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\TUI\UISortingLayerSetter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\SolverData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\CommandPanels\LabelWithToggles.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\IContactListener.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\SubItemToken.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\DataHelpers\FilterableDataHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Basic\BasicTableColumns.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\IExtension.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Bugly\BuglyAgent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\IkConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Shapes\Sweep.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\ItemDragging\ItemDraggingSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\OneTouchScaleGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\Int64Serializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\BoneData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\PullToRefresh\PullToRefreshRotateGizmo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoConverterAttribute.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\ItemCountChangeMode.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\ISkeletonAnimation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Mesh Generation\MeshGenerator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceImpressionData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\ExpandToVariableSize\ExpandItemToVariableSizeExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\RayCastInput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\BlobSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Gallery\GalleryRotation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\frame8\ThirdParty\UI\ScrollRectNested.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Other\FingersUtilityMethodsScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomAdapters\GridView\CellGroupViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\PolygonContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\PageView\PageViewSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceInitializationAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\PageView\PageViewExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Grid\GridSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Fixture.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\GuidSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\PulleyJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Shapes\EdgeShape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Snapper8.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\SpineAtlasAsset.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\NestingManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Basic\BasicColumnState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\ScrollbarRotateOnPull.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\ContentSizeFitter\ContentSizeFitterExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\PullToRefresh\PullToRefreshBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Basic\BasicTuple.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\LongPressGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Input\TableViewFloatingDropdownTMPro.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\GridWithCategories\GridWithCategoriesDemoDataUtil.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\NestedScrollViewsSameDirection\ChildGridSimpleExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\TapGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\UInt16Serializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\BlendMode.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Chat\ChatSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\ITuple.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\IOSA.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\List\ListViewsHolderFinder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Tuple\Basic\BasicTupleAdapter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\GridView\Specialized\GridWithCategories\GridWithCategoriesUtil.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\Drawer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\SliderItemBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\CommandPanels\LabelWithInputPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceRewardedVideoManualAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\ByteBuf.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\NetObjectCache.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\ByteBufExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\TypeModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\PositionSolverManifold.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\SkeletonData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersPanARComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonUtility\ActivateBasedOnFlipDirection.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Shapes\Shape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Event.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Compiler\CompilerContext.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\WheelJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\PathAttachment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Controls\FingersJoystickScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\PackedGridLayoutGroup.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityInterstitial.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\ClippingAttachment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Ropes\StretchingModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\SkeletonExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\IScrollRectProxy.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\TransformConstraintData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\Drawer\DrawerCommandPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Extra\BufferredTableData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\OSASubComponents.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\IProtoSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\RayCastOutput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Hierarchy\IHierarchyOSA.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\CircleContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\CommandPanels\WithInputPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\ImageGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\PointState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\MotorJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Json.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\GearJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\Transform.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ContactVelocityConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoException.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\FingersScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\Following\BoneFollowerGraphic.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\UInt32Serializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Shapes\PolygonShape.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\BodyFlags.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\Extensions\RectTransformExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Body.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\TransformConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceInterstitialAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\TypeAddedEventArgs.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\PullToRefresh\PullToRefreshGizmo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\ScrollViews\InputFieldInScrollRectFixer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\AnimatedInsertRemove\AnimatedInsertRemoveSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Tuple\TupleParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\ParseableSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Hierarchy\HierarchySceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ImplicitFields.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\IAwaiter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceRewardedVideoLevelPlayManualAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\EnumSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\TupleSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\AnimatorEventListener.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\BaseItemViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceInterstitialLevelPlayAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\MotorJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\SpineSpriteAtlasAsset.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityLevelPlayRewardedVideo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\SpriteMgr\SpriteMgrConfig.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\ContentSizeFitter\ContentSizeFitterSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\Models\GreenModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\DateTimePicker\DateTimePickerSimpleSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\AsyncETTaskMethodBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\Joints.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\Rotation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\World.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETTaskHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\KeyValuePairProxy.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\BeanBase.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\Models\OrangeModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TableAdapter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\TUI\TUIRoot.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\OSAUtil.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceBannerEvents.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\SkeletonBinary.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoEnumAttribute.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TableResizingMode.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\SelectionWatcher.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\ReleaseFromPullManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\Internal\SkeletonSubmeshGraphic.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersZoomPanCameraComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\AdditionalComponents\OSAProactiveNavigator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\RotateGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\Models\SimpleBaseModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\ReflectedUriDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\TUI\TUIWidgetMono.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\CommandPanels\ButtonsWithOptionalInputPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\Extensions\VectorExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceAdInfo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\NestedScrollViews\NestedScrollViewsSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ServiceModel\ProtoBehaviorAttribute.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\BasicList.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\FixedArray.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\MathExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\TimeOfImpact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnitySegment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleNestedScrollViews\SimpleNestedScrollViewsExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\DistanceOutput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\BaseNavigationManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Gallery\GalleryEffectParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\Manifold.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Velocity.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\Following\BoundingBoxFollowerGraphic.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceConfig.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\Int16Serializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\WeldJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETVoid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\RopeJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Utility\AttachmentCloneExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\PropertyDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\ColliderEdge.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\SingleSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoMapAttribute.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TableParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\DrawFlag.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\OSAConst.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Main\MainExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Bugly\BuglyCallback.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Controls\FingersImageAutomationScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityOfferwall.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceEventsDispatcher.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\ShowOnlyOnPortraitOrientation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\DoubleSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowSkeletonUtilityRootRotation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\LayoutInfo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\ScrollViews\NonInteractableScrollRect.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\InternalState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\SubItemSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Main\ObjectsVirtualParent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceImpressionDataAndroid.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersPanOrbitComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\PointAttachment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\DiscriminatedUnion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Animations\SmoothScrollCancellingEvents.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Ropes\RopeStretch.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\SimplexVertex.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\Following\BoundingBoxFollower.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\Optimization\ShadowRemover.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersRotateCameraComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\CallbackAttributes.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Input\InputValidator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\VelocityConstraintPoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\TimeStep.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleFilterable\SimpleFilterExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Gestures\OneTouchScaleGestureRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\SByteSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ContactSolverDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\LoadSceneOnClick.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TableValueType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\SlotData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\AllowContentOutsideBoundsMode.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\TimeSpanSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\UnsupportedPlatformAgent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ServiceModel\ProtoEndpointBehavior.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\Common\Singleton8.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\UriDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Tuple\TupleValueViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleFilterable\FilterableSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETTask.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersMultiDragComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\ManifoldType.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SimpleMultiplePrefabs\SimpleMultiplePrefabsExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\IColumnInfo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\Models\ExpandableModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\SkeletonClipping.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\ExpandCollapseAnimationState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\IExtensible.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomAdapters\GridView\CellViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\MouseJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\IkConstraintData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\MultiplePrefabs\MultiplePrefabsExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\SceneEntries\DemoSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\ResizeablePanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\FingersCameraMove3DComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\DifferentPrefabPerOrientation\DifferentPrefabPerOrientationSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\MeshAttachment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\UISimple\OSASimpleGridView.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\LongClickableItem.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\ManifoldPoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\OSADebugger.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\PrismaticJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Basic\BasicTableData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Animations\UserAnimationsCancellingEvents.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\IO\RemoteImageBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\DifferentPrefabPerOrientation\ViewHolders\LandscapeVH.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Tuple\Basic\BasicHeaderTupleAdapter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\CustomAdapters\GridView\SubComponents\GridNavigationManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Shapes\MassData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\IProtoInputT.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Ropes\BendingModel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\Common\CommandPanels\ScrollToPanel.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\ContactPositionConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IUnityRewardedVideo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\IContactFactory.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonRendererCustomMaterials\SkeletonGraphicCustomMaterials.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\PackedGrid\PackedGridExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Kcp\Kcp.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenDeAudio.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonMecanimRootMotion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\Collider\ContactFeature.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\TaoLu\TUI\TUIDefine.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\Following\BoneFollower.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\SkeletonJson.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\DataHelpers\BufferredDataSource.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Components\SwipeGestureRecognizerComponentScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\LoopingSpinners\LoopingSpinnerExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\AnimationState.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\SkeletonBounds.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\UInt64Serializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSourceIAgent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\IronSource\IronSource.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Tuple\Basic\BasicTupleValueViewsHolder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\SubComponents\ComputeVisibilityParams.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\GlobalSuppressions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\RegionAttachment.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\ProtoMemberAttribute.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Animation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\ItemDragging\ItemDraggingExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\Util\IO\Pools\IPool.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETTaskCompleted.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\FrictionJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\NetObjectSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\DataHelpers\AsyncBufferredDataSource.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\SurrogateSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\Basic\BasicColumnInfo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\PrismaticJoint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Extensible.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\MapDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\DynamicTree.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\EventData.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\Extensions\TransformExtensions.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\Core\Data\Gallery\GalleryAnimation.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\ProtoDecoratorBase.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Attachments\AttachmentLoader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\Triangulator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Ropes\RopeDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\PrefixStyle.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Common\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\ETCancellationToken.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-csharp\PathConstraint.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\Scripts\CustomAdapters\TableView\TableViewUtil.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\ArrayDecorator.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\SpineAttributes.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Contacts\EdgeAndPolygonContact.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\SerializationContext.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Meta\TypeFormatEventArgs.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\IncrementalItemFetch\IncrementalItemFetchSceneEntry.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\SelectAndDelete\SelectAndDeleteExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\protobuf-net\Serializers\CompiledSerializer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\ETTask\AsyncETVoidMethodBuilder.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\NestedScrollViewsSameDirection\NestedScrollViewsSameDirectionExample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\FrictionJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\ShapeCastOutput.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Collision\ColliderCircle.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Box2D\Box2D\Dynamics\Joints\RopeJointDef.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Demos\Scripts\LoopingSpinners\LoopingSpinnersSceneEntry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\CGIncludes\Spine-Skeleton-Lit-Common.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\version.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Docs\Manual link.txt" />
+    <None Include="Assets\Scripts\ThirdParty\SoftMaskForUGUI-1.0.0\Shaders\SoftMask.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Scripts\ThirdParty\Fingers\Readme.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\CGIncludes\Spine-Common.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Extra\PluginSupport\Playmaker\README.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Sprite\CGIncludes\ShaderShared.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Sprite\CGIncludes\ShaderMaths.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Sprite\CGIncludes\SpriteSpecular.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\readme.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\readme_DOTweenPro.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween.dll" />
+    <None Include="Assets\Scripts\ThirdParty\SoftMaskForUGUI-1.0.0\Samples\TextMeshPro Support\Resources\TMP_SDF (SoftMaskable).shader" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenPro.XML" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenPro.dll" />
+    <None Include="Assets\Scripts\ThirdParty\SoftMaskForUGUI-1.0.0\Samples\TextMeshPro Support\Resources\TMP_Sprite (SoftMaskable).shader" />
+    <None Include="Assets\Scripts\ThirdParty\LubanLib\SimpleJSON\Changelog.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Fingers\Prefab\Script\Other\XamarinAndroidTouchAdapter.txt" />
+    <None Include="Assets\Scripts\ThirdParty\SoftMaskForUGUI-1.0.0\Samples\TextMeshPro Support\Resources\TMP_SDF-Mobile (SoftMaskable).shader" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Sprite\CGIncludes\SpriteUnlit.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\CGIncludes\Spine-DepthOnlyPass.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\DemiLib\Core\DemiLib.xml" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Sprite\CGIncludes\SpriteShadows.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\CGIncludes\Spine-Skeleton-Lit-Common-Shadow.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\SoftMaskForUGUI-1.0.0\Shaders\Resources\UI-Default-SoftMaskable.shader" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\CGIncludes\Spine-Outline-Common.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Scripts\ThirdParty\SoftMaskForUGUI-1.0.0\Shaders\Resources\SoftMask.shader" />
+    <None Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\ThirdParty\Packer2DBox\Packer2DBoxLICENSE.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Extra\README.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Unity.ThirdParty.asmdef" />
+    <None Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Utilities\ThirdParty\Packer2DBox\About.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Sprite\CGIncludes\SpriteLighting.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\CGIncludes\Spine-Skeleton-Tint-Common.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Core\Scripts\frame8\version.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Com.TheFallenGames\OSA\Extra\PluginSupport\TMPro\TMPro instructions.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Outline\CGIncludes\Spine-Outline-Pass.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Demigiant\DemiLib\Core\DemiLib.dll" />
+    <None Include="Assets\Scripts\ThirdParty\Fingers\ChangeLog.txt" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\Sprite\CGIncludes\SpritePixelLighting.cginc" />
+    <None Include="Assets\Scripts\ThirdParty\Spine\Runtime\spine-unity\Shaders\SkeletonGraphic\CGIncludes\Spine-SkeletonGraphic-NormalPass.cginc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Utilities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.FontABTool">
+      <HintPath>Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>Assets\Plugins\NLog.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SharpCompress">
+      <HintPath>Assets\Plugins\MongoDB\SharpCompress.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>Assets\Plugins\MongoDB\System.Text.Encoding.CodePages.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>Assets\Plugins\MongoDB\MongoDB.Driver.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>Assets\Plugins\MongoDB\MongoDB.Bson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CommandLine">
+      <HintPath>Assets\Plugins\CommandLine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\MongoDB\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DnsClient">
+      <HintPath>Assets\Plugins\MongoDB\DnsClient.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Plugins\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Libmongocrypt">
+      <HintPath>Assets\Plugins\MongoDB\MongoDB.Libmongocrypt.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Scripts\ThirdParty\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>Assets\Plugins\MongoDB\MongoDB.Driver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.AOTGenerated">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\AOT\Sirenix.Serialization.AOTGenerated.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UniTask.Player.csproj">
+      <Project>{3DCA2654-22CC-7EEE-BA53-31A8D4ECDE69}</Project>
+      <Name>UniTask.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{E6CE8A33-AABC-D178-A617-C2822A77F441}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

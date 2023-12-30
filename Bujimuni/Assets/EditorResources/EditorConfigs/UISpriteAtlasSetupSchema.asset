@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1b419a11a3cb34dae21e6640d6ae28, type: 3}
+  m_Name: UISpriteAtlasSetupSchema
+  m_EditorClassIdentifier: 
+  ignoreTextureFolders:
+  - {fileID: 102900000, guid: a389b2567ea82404485c73a8f53d1424, type: 3}
+  - {fileID: 102900000, guid: 9620d56a4e81f0f47b749b1b30ce7130, type: 3}
+  spriteAtlasGroups:
+  - {fileID: 102900000, guid: 9e15da341bb9e9740943b05e31a65c3d, type: 3}
+  - {fileID: 9135842423383132510, guid: 7972b5554dcb989409d87243a4433f86, type: 3}
+  - {fileID: 102900000, guid: 675025f41b779734cb6b4ec62fca3e20, type: 3}
+  - {fileID: 102900000, guid: cd4d5a0419590484bbb365004af70021, type: 3}
+  - {fileID: 102900000, guid: 070e26f795a56d541ad90572bcb7af16, type: 3}

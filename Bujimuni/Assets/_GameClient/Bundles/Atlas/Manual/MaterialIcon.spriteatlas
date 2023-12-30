@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MaterialIcon
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 12
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 31620219358ea264db4eea1f3c264f1b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 3ebd970036e383b4488736c2597c28fe: 21300000
+    - 6d65ae904fda7894b84871d6df6f6247: 21300000
+    - ffc1bba0c62a8dc48a74a3276932113e: 21300000
+    - f3198bb09433b9442be7b7657c38f46c: 21300000
+    - 0ca803e0962528a40ab3512e45a6f225: 21300000
+    - 365ae2216fe904b4abf13e2ecdac1286: 21300000
+    - f6587cd1acfbb114dae36ad23ddcc213: 21300000
+    - 8a5a12f1c32be034db9d42c018607e71: 21300000
+    - 3dfb6a13e1a5d0242b11577038dc9f24: 21300000
+    - b663b3a395b1507429835e33b3268251: 21300000
+    - 07c826a471058a448aed95aa89165f38: 21300000
+    - 3e7378a4646ee8a469a5a0c1327d2d8d: 21300000
+    - 47697b35846a51940b9bd7c9191f565b: 21300000
+    - 1085b5262da531346a4aa28f14df806b: 21300000
+    - d169cf66d6d40c64fb63c89d452a959c: 21300000
+    - 3adf9d76c89f372418389deb58a159fa: 21300000
+    - c3ebeaf6b7a419743a566e2706577352: 21300000
+    - 51fb8e07bfec1e546b9506f6614bad23: 21300000
+    - 3a0f271781a95754587dd9d0b9cc981b: 21300000
+    - 627eb9c793236a14ca98690e988589b9: 21300000
+    - 1768be183c68e044fbc24d8f2beefed6: 21300000
+    - 9e114469e67f7b5488b77e2103768c28: 21300000
+    - 2288f8a97c2c87a47a0f5145d6a5ce50: 21300000
+    - 66c4231af2aef2a4b88dacb3a69a8094: 21300000
+    - b77a873bcb09e9f46afdc585e4057398: 21300000
+    - 0ff11ddbebf283f48a88e541e62df50b: 21300000
+    - adc78f5c1dd18a4469ccf620b3475e34: 21300000
+    - d5fb242d8c9198d499149db691733848: 21300000
+    - 810181dd33f8ece4fa25943570b21237: 21300000
+    - 9e8bc5bf3af23ca4387d3a0339255086: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3ebd970036e383b4488736c2597c28fe, type: 3}
+  - {fileID: 21300000, guid: 6d65ae904fda7894b84871d6df6f6247, type: 3}
+  - {fileID: 21300000, guid: ffc1bba0c62a8dc48a74a3276932113e, type: 3}
+  - {fileID: 21300000, guid: f3198bb09433b9442be7b7657c38f46c, type: 3}
+  - {fileID: 21300000, guid: 0ca803e0962528a40ab3512e45a6f225, type: 3}
+  - {fileID: 21300000, guid: 365ae2216fe904b4abf13e2ecdac1286, type: 3}
+  - {fileID: 21300000, guid: f6587cd1acfbb114dae36ad23ddcc213, type: 3}
+  - {fileID: 21300000, guid: 8a5a12f1c32be034db9d42c018607e71, type: 3}
+  - {fileID: 21300000, guid: 3dfb6a13e1a5d0242b11577038dc9f24, type: 3}
+  - {fileID: 21300000, guid: b663b3a395b1507429835e33b3268251, type: 3}
+  - {fileID: 21300000, guid: 07c826a471058a448aed95aa89165f38, type: 3}
+  - {fileID: 21300000, guid: 3e7378a4646ee8a469a5a0c1327d2d8d, type: 3}
+  - {fileID: 21300000, guid: 47697b35846a51940b9bd7c9191f565b, type: 3}
+  - {fileID: 21300000, guid: 1085b5262da531346a4aa28f14df806b, type: 3}
+  - {fileID: 21300000, guid: d169cf66d6d40c64fb63c89d452a959c, type: 3}
+  - {fileID: 21300000, guid: 3adf9d76c89f372418389deb58a159fa, type: 3}
+  - {fileID: 21300000, guid: c3ebeaf6b7a419743a566e2706577352, type: 3}
+  - {fileID: 21300000, guid: 51fb8e07bfec1e546b9506f6614bad23, type: 3}
+  - {fileID: 21300000, guid: 3a0f271781a95754587dd9d0b9cc981b, type: 3}
+  - {fileID: 21300000, guid: 627eb9c793236a14ca98690e988589b9, type: 3}
+  - {fileID: 21300000, guid: 1768be183c68e044fbc24d8f2beefed6, type: 3}
+  - {fileID: 21300000, guid: 9e114469e67f7b5488b77e2103768c28, type: 3}
+  - {fileID: 21300000, guid: 2288f8a97c2c87a47a0f5145d6a5ce50, type: 3}
+  - {fileID: 21300000, guid: 66c4231af2aef2a4b88dacb3a69a8094, type: 3}
+  - {fileID: 21300000, guid: b77a873bcb09e9f46afdc585e4057398, type: 3}
+  - {fileID: 21300000, guid: 0ff11ddbebf283f48a88e541e62df50b, type: 3}
+  - {fileID: 21300000, guid: adc78f5c1dd18a4469ccf620b3475e34, type: 3}
+  - {fileID: 21300000, guid: d5fb242d8c9198d499149db691733848, type: 3}
+  - {fileID: 21300000, guid: 810181dd33f8ece4fa25943570b21237, type: 3}
+  - {fileID: 21300000, guid: 9e8bc5bf3af23ca4387d3a0339255086, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Material4_CrownConch
+  - Material1_Gloves
+  - Material2_Honeycomb
+  - Material1_AncientTreeBranch_New
+  - Material2_GiantEgg
+  - Material1_WhiteSand
+  - Material5_OligeiSteel
+  - Material2_AnimalHorn
+  - Material4_Pearl
+  - Material5_SanSapling
+  - Material4_ColorfulStone
+  - Material1_AncientTreeBranch
+  - Material5_Longan
+  - Material1_Cloth
+  - Material3_GoldSecreta
+  - Material3_FireBranch
+  - Material1_Meat
+  - Material4_Wing
+  - Material2_NaturalOil
+  - Material1_Weapon
+  - Material1_Belt
+  - Material1_Shoes
+  - Material1_Necklace
+  - Material1_Mushroom
+  - Material2_SacredLeaf
+  - Material3_Succinol
+  - Material2_DarkMushroom
+  - Material1_Mineral
+  - Material3_Batwing
+  - Material1_Grass
+  m_RenderDataMap: {}
+  m_Tag: MaterialIcon
+  m_IsVariant: 0

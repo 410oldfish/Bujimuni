@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b2696b836ad924da0546df3cf7db75, type: 3}
+  m_Name: SpriteMgrConfig
+  m_EditorClassIdentifier: 
+  Datas:
+  - AssetName: MaterialIcon
+    Type: 2
+    SpriteNames:
+    - Material4_CrownConch
+    - Material1_Gloves
+    - Material2_Honeycomb
+    - Material1_AncientTreeBranch_New
+    - Material2_GiantEgg
+    - Material1_WhiteSand
+    - Material5_OligeiSteel
+    - Material2_AnimalHorn
+    - Material4_Pearl
+    - Material5_SanSapling
+    - Material4_ColorfulStone
+    - Material1_AncientTreeBranch
+    - Material5_Longan
+    - Material1_Cloth
+    - Material3_GoldSecreta
+    - Material3_FireBranch
+    - Material1_Meat
+    - Material4_Wing
+    - Material2_NaturalOil
+    - Material1_Weapon
+    - Material1_Belt
+    - Material1_Shoes
+    - Material1_Necklace
+    - Material1_Mushroom
+    - Material2_SacredLeaf
+    - Material3_Succinol
+    - Material2_DarkMushroom
+    - Material1_Mineral
+    - Material3_Batwing
+    - Material1_Grass
+  - AssetName: WeaponIcon
+    Type: 2
+    SpriteNames:
+    - Icon_Magnet
+    - Weapons_Birdie
+    - Weapons_Cat
+    - Weapons_Watermelon
+    - Weapons_BombSheep
+  - AssetName: ExploreMapSelectUI_MapBG
+    Type: 0
+    SpriteNames:
+    - ExploreMapSelectUI_MapBG
+  - AssetName: LevelUpSplash_BG1
+    Type: 0
+    SpriteNames:
+    - LevelUpSplash_BG1
+  - AssetName: LevelUpSplash_BG2
+    Type: 0
+    SpriteNames:
+    - LevelUpSplash_BG2
+  - AssetName: LevelUpSplash_BG3
+    Type: 0
+    SpriteNames:
+    - LevelUpSplash_BG3
+  - AssetName: Monster01
+    Type: 1
+    SpriteNames:
+    - Monster01_0
+    - Monster01_1
+    - Monster01_2
+    - Monster01_3
+    - Monster01_4
+    - Monster01_5
+    - Monster01_6
+    - Monster01_7
+    - Monster01_8
+    - Monster01_9
+    - Monster01_10
+    - Monster01_11
+    - Monster01_12
+    - Monster01_13
+    - Monster01_14
+    - Monster01_15
+    - Monster01_16
+    - Monster01_17
+    - Monster01_18
+    - Monster01_19
+    - Monster01_20
+    - Monster01_21
+    - Monster01_22
+    - Monster01_23
+    - Monster01_24
+    - Monster01_25
+    - Monster01_26
+    - Monster01_27
+    - Monster01_28
+    - Monster01_29
+    - Monster01_30
+    - Monster01_31
+    - Monster01_32
+    - Monster01_33
+    - Monster01_34
+    - Monster01_35
+    - Monster01_36
+    - Monster01_37
+    - Monster01_38
+    - Monster01_39
+    - Monster01_40
+    - Monster01_41
+    - Monster01_42
+    - Monster01_43
+    - Monster01_44
+    - Monster01_45
+    - Monster01_46
+    - Monster01_47
+    - Monster01_48
+    - Monster01_49
+    - Monster01_50
+    - Monster01_51
+    - Monster01_52
+    - Monster01_53
+    - Monster01_54

@@ -1,0 +1,1551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{82A0F246-538D-24CF-6082-55E812E0BF1B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_14;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;ODIN_INSPECTOR;ODIN_INSPECTOR_3;LETAI_TRUESHADOW;UNITY;TextMeshPro;ENABLE_CODES;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.14f1c1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="E:\VS2022Other\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\MongoDB.Driver.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\DnsClient.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\NLog.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.Rocks.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\AOT\Sirenix.Serialization.AOTGenerated.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Utilities.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.Pdb.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\SixLabors.ImageSharp.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\CommandLine.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\ICSharpCode.SharpZipLib.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\System.Text.Encoding.CodePages.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\MongoDB.Libmongocrypt.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\Source\Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Editor\I2\Editor\Unity XCode\UnityEditor.iOS_I2Loc.Xcode.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\Source\Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Text.Encoding.CodePages.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Newtonsoft.Json.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Scripts\ThirdParty\Demigiant\DemiLib\Core\DemiLib.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Utilities.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Editor\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Numerics.Vectors.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\MongoDB.Driver.Core.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\wxlog.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Serialization.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Buffers.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\SharpCompress.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\System.Buffers.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Editor\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Editor\Demigiant\DemiLib\Editor\DemiEditor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\AssetsTools.NET.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\System.Memory.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\TextureEditor\Release\Mono.Cecil.Mdb.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenPro.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\WX-WASM-SDK-V2\Editor\wx-editor.dll" />
+    <Analyzer Include="E:\Work\Bujimuni\Bujimuni\Bujimuni\Assets\lighten-framework\ETFramework\Assets\Plugins\MongoDB\MongoDB.Bson.dll" />
+    <Analyzer Include="E:\UnityEngine\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="E:\UnityEngine\2022.3.14f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXParser.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonGraphicInspector.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\OSAWizard\CustomAdapterConfigurators\CustomAdapterConfiguratorAttribute.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DataBuilders\BuildScriptPackedPlayMode.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AnalyzeRules\AnalyzeResultData.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\DoubleTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\UI\AnnularSliderEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AddressableAssetSettingsLocator.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\OSAWizard\CustomAdapterConfigurators\ICustomAdapterConfigurator.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\ComponentViewEditor.cs" />
+    <Compile Include="Assets\Editor\EUI\UICodeSpawn\SubUICodeSapwner.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetEntryCollection.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\Icons.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetEntry.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\FastModeInitializationOperation.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Shaders\SpineShaderWithOutlineGUI.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AssetLabelReferenceDrawer.cs" />
+    <Compile Include="Assets\Editor\EUI\UIEditorController.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Asset Types\SkeletonDataAssetInspector.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\StringTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\LocalConfigEditor\LocalConfigEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AddressablesDataBuilderInput.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\AddressableCustomScript\CustomContentUpdateScript.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\LanguageSourceInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\ProfileWindow.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\Preferences.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\Preferences.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\RevertUnchangedAssetsToPreviousAssetState.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\Data\EventDataSet.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\SpineMaskUtilities.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Utilities\Editor\Scripts\OSAWizard\CustomAdapterConfigurators\TableAdapterConfigurator.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\BuildPipelineTasks\GenerateLocationListsTask.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DataBuilders\AddressableAssetsBuildContext.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\DictionaryIntLongTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetPostProcessor.cs" />
+    <Compile Include="Assets\Editor\UI\ExtendImageEditor.cs" />
+    <Compile Include="Assets\Editor\LubanUnityGUI\Defines\GenTypes.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\SerializedTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\ContentUpdateScript.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceBuildPostprocessor.cs" />
+    <Compile Include="Assets\Editor\GenerateCodeEditor\GenerateComponentEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Helper\AddressableImportSettingsEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\HostingServices\HostingServicesManager.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXBuildPhase.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetsSettingsGroupEditor.cs" />
+    <Compile Include="Assets\Editor\XUPorter\XCProject.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Warnings.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Attributes\ButtonMethodAttribute.cs" />
+    <Compile Include="Assets\Editor\UniTask\SplitterGUILayout.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\SetLanguageInspector.cs" />
+    <Compile Include="Assets\Editor\XUPorter\Plist\Plist.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\ColorTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\ITypeDrawer.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceManifestProcessor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetGroup.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonPartsRendererInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\AddressableAssetSettingsDefaultObject.cs" />
+    <Compile Include="Assets\Editor\Helper\EditorResHelper.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AssetSettingsAnalyzeTreeView.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXDictionary.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\UpgradeManager.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AssetPublishEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\CacheInitializationDataDrawer.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\OSAWizard\CWiz.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Helper\AddressableImporterMethodHandler.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\SceneManagerState.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Tools_NoLocalized.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonRootMotionBaseInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\FileRegistry.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\OSAWizard\BaseOSAWindow.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\AddressableEditorInitialization.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\GlobalInitialization.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetSettings.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\EventGraphListView.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Shaders\SpineSpriteShaderGUI.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\ETBuildSettings.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\Instantiation.cs" />
+    <Compile Include="Assets\Editor\LubanUnityGUI\Defines\NamingConvertion.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableReadOnlyAttribute.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Attributes\ConditionalFieldAttribute.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\AssemblyInfo.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonRendererCustomMaterialsInspector.cs" />
+    <Compile Include="Assets\Editor\I2\Examples\Common\Scripts\NGUI_LanguagePopup.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXList.cs" />
+    <Compile Include="Assets\Editor\Plugins\HybridCLR\HybridCLREditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AddressableAnalytics.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Windows\SpinePreferences.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\ResourceManagerCacheWindow.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\Graph\GraphLayerBackground.cs" />
+    <Compile Include="Assets\Editor\Helper\PlayerPrefsHelper.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\ISearchFilterable.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetEntryCollectionEditor.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawerAttribute.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\Layout\BuildLayout.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\OrgData.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonMecanimInspector.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\BuildEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\ProfileValueReferenceDrawer.cs" />
+    <Compile Include="Assets\Editor\AssetPostProcessor\TextureSetting .cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AnalyzeRules\BuildBundleLayout.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetGroupTemplate.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Asset Types\AnimationReferenceAssetEditor.cs" />
+    <Compile Include="Assets\Editor\ServerCommandLineEditor\ServerCommandLineEditor.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\BoneFollowerGraphicInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\ProfileDataSourceSettings.cs" />
+    <Compile Include="Assets\Editor\XUPorter\XCodePostProcess.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\BuildSettings.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\EnumTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\ToolEditor\ToolsEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetGroupSchemaSet.cs" />
+    <Compile Include="Assets\Editor\Helper\DockDefine.cs" />
+    <Compile Include="Assets\Editor\CodesListener\CodesListenerExecutor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\BuildUtility.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\Layout\BuildLayoutHelpers.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Asset Types\SpineAtlasAssetInspector.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\SpineHandles.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Tools_ParseTerms.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DataBuilderInterfaces.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\KeyDataStore.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\Vector4TypeDrawer.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AnalyzeRules\CheckResourcesDupeDependencies.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetBuildSettings.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXSortedDictionary.cs" />
+    <Compile Include="Assets\Editor\ToolEditor\RefreshTool.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\AdditionalComponents\OSAProactiveNavigatorCustomEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DataBuilders\AddressableAssetsBundleBuildParameters.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\ShaderBundleNaming.cs" />
+    <Compile Include="Assets\Editor\ToolEditor\RenameTool.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\LocalizeDropdownInspector.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\DateTimeTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DataBuilders\BuildScriptFastMode.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\GroupSchemas\PlayerDataGroupSchema.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\AddressableImportSettings.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Terms.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\ProfileGroupType.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetGroupSchema.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Tools_Categorize.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AssetInspectorGUI.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Windows\SkeletonBakingWindow.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\PostProcessBuild_UnloadLanguages.cs" />
+    <Compile Include="Assets\Editor\I2\Examples\Common\Scripts\CallbackNotification.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceEditorCoroutines.cs" />
+    <Compile Include="Assets\Editor\XUPorter\XCBuildConfiguration.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\LabelTable.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\OSAWizard\InitOSAWindow.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\GitTool.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\EditorTools.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\BoundingBoxFollowerInspector.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\IOSBuild.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\CEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AnalyzeRules\CheckBundleDupeDependencies.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\UnityObjectTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\EventViewerWindow.cs" />
+    <Compile Include="Assets\Editor\GenerateCodeEditor\ScriptGenerator\ScriptGeneratorToolMenu.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\SpineBuildProcessor.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\BoundingBoxFollowerGraphicInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\CacheInitializationSettings.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AnalyzeRules\BundleRuleBase.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\BoneFollowerInspector.cs" />
+    <Compile Include="Assets\Editor\I2\Examples\Common\Scripts\RealTimeTranslation.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonRootMotionInspector.cs" />
+    <Compile Include="Assets\Editor\Helper\ShellHelper.cs" />
+    <Compile Include="Assets\Editor\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\HostingServicesWindow.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Utilities\Editor\Scripts\Util\PackedGridLayoutGroupEditor.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\PostProcessBuild_ANDROID.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetGroupTemplateInterface.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\AssetDatabaseAvailabilityDetector.cs" />
+    <Compile Include="Assets\Editor\LubanUnityGUI\GenUtils.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\BuildAssembliesHelper.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AnalyzeRuleGUI.cs" />
+    <Compile Include="Assets\Editor\I2\Examples\Common\Scripts\RegisterBundlesManager.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\AddressableCustomScript\CustomBuildScriptPackedMode.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AddressablesBuildScriptHooks.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\HostingServicesProfileVarsTreeView.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\LongTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AnalyzeRules\CheckSceneDupeDependencies.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DirectoryUtility.cs" />
+    <Compile Include="Assets\Editor\I2\Examples\Common\Scripts\Example_ChangeLanguage.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Windows\SpriteAtlasImportWindow.cs" />
+    <Compile Include="Assets\Editor\GlobalVarInEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Helper\AddressableImportSettingsListEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\HostingServices\BaseHostingService.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\Graph\GraphUtility.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AnalyzeRules\AnalyzeSystem.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\LinkXMLGenerator.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonRendererInspector.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonUtilityBoneInspector.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\Vector3TypeDrawer.cs" />
+    <Compile Include="Assets\Editor\IronSource\MobileDependencyResolverInstallerLp.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXVariantGroup.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\BuildHelper.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetsSettingsLabelMaskPopup.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\BuildPipelineTasks\ExtractDataTask.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonUtilityInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\ProfileDataSourceDropdownWindow.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AnalyzeRules\AnalyzeRule.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\Graph\GraphDefinition.cs" />
+    <Compile Include="Assets\Editor\CodesListener\ETProjectBrowserMenusItem.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\OSAEditorConst.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\SpineInspectorUtility.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Spreadsheet_Google.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetsSettingsGroupEditorBuildMenu.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\HostingServices\HttpHostingService.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceMediatedNetworkSettings.cs" />
+    <Compile Include="Assets\Editor\LubanUnityGUI\LifeCycle\TestLifeCycle.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\BuildProfileSettingsEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\Graph\GraphLayerLabel.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\ContentUpdatePreviewWindow.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\Graph\GraphLayerBarChart.cs" />
+    <Compile Include="Assets\Editor\EUI\UICodeSpawn\UICodeSpawner.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetGroupTemplateInspector.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\DirectoryExtension.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\AddressableImporter.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonAnimationInspector.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\LocalizationParamsManagerInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableScenesManager.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\HostingServicesListTreeView.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressablesGUIUtility.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\MonoScriptBundleNaming.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DataBuilders\BuildScriptBase.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Tools_Scenes.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\AssetUtility.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\Graph\IGraphLayer.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\AddressableImportFilter.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceMediatedNetworkSettingsInspector.cs" />
+    <Compile Include="Assets\Editor\XUPorter\XCPlist.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressablesFileEnumeration.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\LocalizationEditor.cs" />
+    <Compile Include="Assets\Editor\XUPorter\XClass.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\GroupSchemas\BundledAssetGroupSchema.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\BuildPipelineTasks\BuildLayoutGenerationTask.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\BuiltinSceneCache.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\HostingServices\IHostingServiceConfigurationProvider.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Attributes\FoldoutColorGroupAttribute.cs" />
+    <Compile Include="Assets\Editor\UI\TextureAutoSet.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\BlendModeMaterialsUtility.cs" />
+    <Compile Include="Assets\Editor\IronSource\IAdapterSettings.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\Layout\BuildLayoutPrinter.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\PluginPathTracker.cs" />
+    <Compile Include="Assets\Editor\LubanUnityGUI\Defines\CustomAttrs.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\LabelWindow.cs" />
+    <Compile Include="Assets\Editor\UniTask\UniTaskTrackerTreeView.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\DataReloadHandler.cs" />
+    <Compile Include="Assets\Editor\Plugins\Example\Editor.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\BoundsTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\Vector2TypeDrawer.cs" />
+    <Compile Include="Assets\Editor\CodesListener\ETProjectBrowserSettings.cs" />
+    <Compile Include="Assets\Editor\I2\Examples\Common\Scripts\GlobalParametersExample.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AnalyzeWindow.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Windows\SkeletonDebugWindow.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\GraphColors.cs" />
+    <Compile Include="Assets\Editor\AssetPostProcessor\OnGenerateCSProjectProcessor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AssetReferenceDrawer.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DataBuilders\BuildScriptPackedMode.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Windows\SkeletonBaker.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceMediationSettingsInspector.cs" />
+    <Compile Include="Assets\Editor\XUPorter\XCConfigurationList.cs" />
+    <Compile Include="Assets\Editor\I2\Examples\Common\Scripts\Example_LocalizedString.cs" />
+    <Compile Include="Assets\Editor\UniTask\UniTaskTrackerWindow.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\PointFollowerInspector.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Terms_Description.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\TermsPopup_Drawer.cs" />
+    <Compile Include="Assets\Editor\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AddressablesDataBuilders.cs" />
+    <Compile Include="Assets\Editor\GenerateCodeEditor\Params.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\Data\EventDataPlayerSessionCollection.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\MenuItems.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXProject.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Helper\AddressableImportRuleAttributeProcessor.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Menus.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\FloatTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\Fingers\MinMaxSlider.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetSettingsInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetGroupInspector.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Spreadsheet_Local.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\Graph\GraphLayerEventMarker.cs" />
+    <Compile Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Scripts\OSAWizard\CreateOSAWindow.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Tools_Script.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\DataBuilders\BuildScriptVirtualMode.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\BuildAssemblieEditor.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\AnimationCurveTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXObject.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceMenu.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\GroupSchemas\ContentUpdateGroupSchema.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\ProfileValueReference.cs" />
+    <Compile Include="Assets\Editor\XUPorter\XCMod.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\EventListView.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\Data\EventDataPlayerSession.cs" />
+    <Compile Include="Assets\Editor\GenerateCodeEditor\ScriptGenerator\ECSScriptGeneratorWindow.cs" />
+    <Compile Include="Assets\Editor\CodesListener\ETProjectBrowser.cs" />
+    <Compile Include="Assets\Editor\LubanUnityGUI\Defines\GenLifeCycle.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\PostProcessBuild_IOS.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\AndroidBuild.cs" />
+    <Compile Include="Assets\Editor\LubanUnityGUI\LubanExportConfig.cs" />
+    <Compile Include="Assets\Editor\BuildEditor\EditorNotification.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\CcdBuildEvents.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetsSettingsGroupTreeView.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Utility\SpineEditorUtilities.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\GUI\Graph\GraphLayerBase.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\AddressableImportSettingsList.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\ResourceManagerInspector.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Asset Types\SpineSpriteAtlasAssetInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetUtility.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Tools.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\Layout\BuildLayoutEnums.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\LocalizeInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\Data\EventDataStream.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\ProfileTreeView.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\AddressableAssetsWindow.cs" />
+    <Compile Include="Assets\Editor\I2\Examples\Common\Scripts\ToggleLanguage.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\HostingServices\IHostingService.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetProfileSettings.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\AddressablesPlayerBuildProcessor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\BuildPipelineTasks\AddHashToBundleNameTask.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\BoolTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\XUPorter\MiniJSON\MiniJSON.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\IntTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\CodesListener\ETProjectMenusWindow.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AddressableAssetGroupSchemaTemplate.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\AssetReferenceDrawerUtilities.cs" />
+    <Compile Include="Assets\Editor\EUI\UICodeSpawn\LoopScrollItemCodeSpawner.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\AddressableImportRule.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Tools_CharSet.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Languages.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceDependenciesManagerConstants.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\RectTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\ReferenceCollectorEditor\ReferenceCollectorEditor.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\ResourceProfilerWindow.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonGraphicCustomMaterialsInspector.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXBuildFile.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Localization\LocalizationEditor_Tools_MergeTerms.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourceDependenciesManager.cs" />
+    <Compile Include="Assets\Editor\ComponentViewEditor\TypeDrawer\CharTypeDrawer.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Build\Layout\BuildLayoutSummary.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Settings\ProjectConfigData.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Attributes\LabelAttribute.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\Diagnostics\Data\EventDataSample.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXFileReference.cs" />
+    <Compile Include="Assets\Editor\I2\Editor\Inspectors\LanguageSourceAssetInspector.cs" />
+    <Compile Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Components\SkeletonMecanimRootMotionInspector.cs" />
+    <Compile Include="Assets\Editor\AddressableEditor\GUI\HostingServicesAddServiceWindow.cs" />
+    <Compile Include="Assets\Editor\IronSource\IronSourcePlistProcessor.cs" />
+    <Compile Include="Assets\Editor\XUPorter\PBX Editor\PBXGroup.cs" />
+    <Compile Include="Assets\Editor\AddressableImporterEditor\Helper\ScriptableObjectEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Editor\GenerateCodeEditor\NPBehaveActionNodeTemplate.txt" />
+    <None Include="Assets\Editor\Unity.Editor.asmdef" />
+    <None Include="Assets\Editor\Demigiant\DemiLib\Editor\DemiEditor.xml" />
+    <None Include="Assets\Editor\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
+    <None Include="Assets\Editor\GenerateCodeEditor\BuffNodeTemplate.txt" />
+    <None Include="Assets\Editor\AddressableImporterEditor\version.txt" />
+    <None Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Resources\Com.TheFallenGames\OSA\Templates\ScriptsChunks\HeaderComment.txt" />
+    <None Include="Assets\Editor\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+    <None Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Resources\Com.TheFallenGames\OSA\Templates\Scripts\BasicListAdapter.txt" />
+    <None Include="Assets\Editor\GenerateCodeEditor\ETComponentTemplate.txt" />
+    <None Include="Assets\Editor\GenerateCodeEditor\BuffDataTemplate.txt" />
+    <None Include="Assets\Editor\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
+    <None Include="Assets\Editor\Demigiant\DemiLib\Editor\DemiEditor.dll" />
+    <None Include="Assets\Editor\I2\Editor\Unity XCode\UnityEditor.iOS_I2Loc.Xcode.dll" />
+    <None Include="Assets\Editor\Com.TheFallenGames\OSA\Utilities\Editor\Resources\Com.TheFallenGames\OSA\Templates\Scripts\BasicTableAdapter.txt" />
+    <None Include="Assets\Editor\GenerateCodeEditor\NPBehaveActionTemplate.txt" />
+    <None Include="Assets\Editor\GenerateCodeEditor\BuffSystemTemplate.txt" />
+    <None Include="Assets\Editor\CodesListener\template.txt" />
+    <None Include="Assets\Editor\GenerateCodeEditor\ETComponentSystemTemplate.txt" />
+    <None Include="Assets\Editor\Com.TheFallenGames\OSA\Core\Editor\Resources\Com.TheFallenGames\OSA\Templates\Scripts\BasicGridAdapter.txt" />
+    <None Include="Assets\Editor\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Editor\I2\Editor\Unity XCode\Xcode.txt" />
+    <None Include="Assets\Editor\GenerateCodeEditor\ETModelComponentTemplate.txt" />
+    <None Include="Assets\Editor\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.NVIDIAModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="wx-runtime-editor">
+      <HintPath>Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.FontABTool">
+      <HintPath>Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Scripts\ThirdParty\Demigiant\DOTween\DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>Assets\Plugins\NLog.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SharpCompress">
+      <HintPath>Assets\Plugins\MongoDB\SharpCompress.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Editor\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\Scripts\ThirdParty\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>Assets\Plugins\MongoDB\System.Text.Encoding.CodePages.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>Assets\Plugins\MongoDB\MongoDB.Driver.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>Assets\Plugins\MongoDB\MongoDB.Bson.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="dnlib">
+      <HintPath>Library\PackageCache\com.code-philosophy.hybridclr@be113567ba\Plugins\dnlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>Assets\Editor\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CommandLine">
+      <HintPath>Assets\Plugins\CommandLine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>Assets\Editor\Demigiant\DemiLib\Editor\DemiEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\MongoDB\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LZ4">
+      <HintPath>Library\PackageCache\com.code-philosophy.hybridclr@be113567ba\Plugins\LZ4.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS_I2Loc.Xcode">
+      <HintPath>Assets\Editor\I2\Editor\Unity XCode\UnityEditor.iOS_I2Loc.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="wx-editor">
+      <HintPath>Assets\WX-WASM-SDK-V2\Editor\wx-editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DnsClient">
+      <HintPath>Assets\Plugins\MongoDB\DnsClient.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Plugins\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Libmongocrypt">
+      <HintPath>Assets\Plugins\MongoDB\MongoDB.Libmongocrypt.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Scripts\ThirdParty\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>Assets\Plugins\MongoDB\MongoDB.Driver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.AOTGenerated">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\AOT\Sirenix.Serialization.AOTGenerated.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:\UnityEngine\2022.3.14f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Loader.csproj">
+      <Project>{875CF462-C6ED-BB25-B72F-2626F78537D7}</Project>
+      <Name>Unity.Loader</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ThirdParty.csproj">
+      <Project>{2D5965BA-3B96-DE34-A372-BB65B9AA288C}</Project>
+      <Name>Unity.ThirdParty</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{5583610C-7BAB-3F04-9171-3DB8D948EB88}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{4B590719-EFB3-2D78-B203-AED3C24415B6}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="HybridCLR.Editor.csproj">
+      <Project>{FE7004CF-09DE-4054-4F07-A0DADE4F047C}</Project>
+      <Name>HybridCLR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Addressables.csproj">
+      <Project>{6B504DB5-5482-D580-B44A-948874FD44F7}</Project>
+      <Name>Unity.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ResourceManager.csproj">
+      <Project>{051ADCCD-6D62-A4F4-CFA5-82C644171B38}</Project>
+      <Name>Unity.ResourceManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.Editor.csproj">
+      <Project>{807092E2-463C-8FD5-D3D7-23642A4BD9F1}</Project>
+      <Name>Unity.ScriptableBuildPipeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.csproj">
+      <Project>{DAAC4890-BB42-81AF-00C0-A7A376294F45}</Project>
+      <Name>Unity.ScriptableBuildPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{5A250FA3-8D02-A5BF-CD34-841765D7C917}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Core.csproj">
+      <Project>{89DD6165-1AD3-0D65-F931-0E3D7A654139}</Project>
+      <Name>Unity.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{C07566C3-98C8-8BB2-2CF0-812969A64548}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{80CAACD7-59F2-405A-C34D-F644F01F7E9E}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{64636FB9-3A01-F06A-2A3F-7E52C443C001}</Project>
+      <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{3C1D18B5-602B-867D-31B7-B38247B69094}</Project>
+      <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

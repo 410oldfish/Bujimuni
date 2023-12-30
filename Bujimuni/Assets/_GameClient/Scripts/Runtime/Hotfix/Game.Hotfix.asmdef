@@ -1,0 +1,26 @@
+{
+    "name": "Game.Hotfix",
+    "rootNamespace": "",
+    "references": [
+        "OSA.Core",
+        "Lighten.Hotfix",
+        "Lighten.Mono",
+        "Unity.TextMeshPro",
+        "UniTask",
+        "UniTask.Addressables",
+        "UniTask.DOTween",
+        "UniTask.TextMeshPro",
+        "Unity.InputSystem",
+        "DOTween.Modules",
+        "DOTweenPro.Scripts"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

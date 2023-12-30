@@ -1,0 +1,6 @@
+
+//#SCRIPTNAME#模块的配置表访问
+public partial class ConfigUtils
+{
+	//TODO:实现访问接口
+}

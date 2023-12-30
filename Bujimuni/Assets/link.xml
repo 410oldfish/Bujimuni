@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+    <assembly fullname="Assembly-CSharp" preserve="all" />
+    <assembly fullname="Lighten" preserve="all" />
+    <assembly fullname="UniTask" preserve="all" />
+</linker>

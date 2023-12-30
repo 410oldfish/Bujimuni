@@ -1,0 +1,22 @@
+{
+    "name": "Lighten.Hotfix",
+    "rootNamespace": "Lighten",
+    "references": [
+        "Unity.ResourceManager",
+        "UniRx",
+        "OSA.Core",
+        "Lighten.Mono",
+        "UniTask",
+        "UniTask.Addressables",
+        "UniTask.DOTween"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

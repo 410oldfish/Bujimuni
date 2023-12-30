@@ -1,0 +1,6 @@
+
+//实现模块的逻辑处理和事件
+public class #SCRIPTNAME# : Lighten.Singleton<#SCRIPTNAME#>
+{
+    //TODO:实现模块逻辑
+}

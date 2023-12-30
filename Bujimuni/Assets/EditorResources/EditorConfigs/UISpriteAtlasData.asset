@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d1c09ab0ed3de46bdb311ea8db3dda, type: 3}
+  m_Name: UISpriteAtlasData
+  m_EditorClassIdentifier: 
+  datas:
+  - prefab: {fileID: 9135842423383132510, guid: 7972b5554dcb989409d87243a4433f86, type: 3}
+    folderPath: Assets/_GameClient/Raw/Prefabs/UI/Character
+    sprites:
+    - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 21300000, guid: 068be2ce58a11444388b11085786f6c7, type: 3}
+  - prefab: {fileID: 9135842423383132510, guid: d87a05c0eaa8f874c8915bf2e9ed9420, type: 3}
+    folderPath: Assets/_GameClient/Raw/Prefabs/UI/Character
+    sprites:
+    - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  - prefab: {fileID: 9135842423383132510, guid: 0ff99cf477dd9424bb63d5edd17dbb6c, type: 3}
+    folderPath: Assets/_GameClient/Raw/Prefabs/UI/Common
+    sprites:
+    - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 21300000, guid: 1054d9ff0a73af04285edfed337f29d3, type: 3}
+  - prefab: {fileID: 6232726597653550519, guid: 3562a33aca53a9c4abbe10c9f35a955b, type: 3}
+    folderPath: Assets/_GameClient/Raw/Prefabs/UI/Common
+    sprites:
+    - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 21300000, guid: 1054d9ff0a73af04285edfed337f29d3, type: 3}
+  - prefab: {fileID: 9135842423383132510, guid: f48f0227c0c3e444382b717b78a79ecf, type: 3}
+    folderPath: Assets/_GameClient/Raw/Prefabs/UI/GameLobby
+    sprites:
+    - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 21300000, guid: 282dd2ad5d2be6948a2a5911ad48b963, type: 3}
+  - prefab: {fileID: 9135842423383132510, guid: 9197fabd01c4a24419cab39615d5179c, type: 3}
+    folderPath: Assets/_GameClient/Raw/Prefabs/UI/GameMenu
+    sprites:
+    - {fileID: 21300000, guid: 1054d9ff0a73af04285edfed337f29d3, type: 3}
+  - prefab: {fileID: 9135842423383132510, guid: 69340192462b138498a9bcd2d3e05105, type: 3}
+    folderPath: Assets/_GameClient/Raw/Prefabs/UI/_Template
+    sprites:
+    - {fileID: 21300000, guid: 1054d9ff0a73af04285edfed337f29d3, type: 3}

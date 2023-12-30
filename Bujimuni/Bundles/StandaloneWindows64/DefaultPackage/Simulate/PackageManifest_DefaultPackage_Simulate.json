@@ -1,0 +1,504 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "Simulate",
+    "AssetList": [
+        {
+            "Address": "common_tbcharacter",
+            "AssetPath": "Assets/_GameClient/Bundles/Configs/ConfigsOfLuban/common_tbcharacter.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "common_tbitem",
+            "AssetPath": "Assets/_GameClient/Bundles/Configs/ConfigsOfLuban/common_tbitem.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "HybridCLRAssemblyConfig",
+            "AssetPath": "Assets/_GameClient/Bundles/Configs/ConfigsOfUnity/HybridCLRAssemblyConfig.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "SpriteMgrConfig",
+            "AssetPath": "Assets/_GameClient/Bundles/Configs/ConfigsOfUnity/SpriteMgrConfig.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "UIConfig",
+            "AssetPath": "Assets/_GameClient/Bundles/Configs/ConfigsOfUnity/UIConfig.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "SampleEnemy",
+            "AssetPath": "Assets/_GameClient/Bundles/Prefabs/Sample/SampleEnemy.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "SamplePlayer",
+            "AssetPath": "Assets/_GameClient/Bundles/Prefabs/Sample/SamplePlayer.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "SamplePlayerInput",
+            "AssetPath": "Assets/_GameClient/Bundles/Prefabs/Sample/SamplePlayerInput.inputactions",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Lighten.DlgTemplate",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/_Template/Lighten.DlgTemplate.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Lighten.WgtTemplate",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/_Template/Lighten.WgtTemplate.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "UIPanelCharacterDetail",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Character/UIPanelCharacterDetail.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "UIPanelCharacterDetail2",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Character/UIPanelCharacterDetail2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "DlgMessageBox",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Common/DlgMessageBox.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "UIWidgetResourceBar",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Common/UIWidgetResourceBar.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "UIWidgetResourceItem",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Common/UIWidgetResourceItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "DlgGameMain",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/GameMain/DlgGameMain.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "DlgGameLogin",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/GameMenu/DlgGameLogin.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "DlgGameMenu",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/GameMenu/DlgGameMenu.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "DlgSampleOfCircleKiller",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Sample/DlgSampleOfCircleKiller.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "DlgSampleOfLoadSprite",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Sample/DlgSampleOfLoadSprite.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "DlgSampleOfScrollView",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Sample/DlgSampleOfScrollView.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "DlgSampleOfScrollViewWithTitle",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Sample/DlgSampleOfScrollViewWithTitle.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "DlgSampleUI01",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Sample/DlgSampleUI01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "WgtSample01",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Sample/WgtSample01.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "WgtSampleOfScrollViewItem",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Sample/WgtSampleOfScrollViewItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "WgtSampleOfScrollViewTitle",
+            "AssetPath": "Assets/_GameClient/Bundles/UI/Sample/WgtSampleOfScrollViewTitle.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "ExploreMapSelectUI_MapBG",
+            "AssetPath": "Assets/_GameClient/Bundles/RuntimeAccess/Textures/ExploreMapSelectUI_MapBG.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "LevelUpSplash_BG1",
+            "AssetPath": "Assets/_GameClient/Bundles/RuntimeAccess/Textures/LevelUpSplash_BG1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "LevelUpSplash_BG2",
+            "AssetPath": "Assets/_GameClient/Bundles/RuntimeAccess/Textures/LevelUpSplash_BG2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "LevelUpSplash_BG3",
+            "AssetPath": "Assets/_GameClient/Bundles/RuntimeAccess/Textures/LevelUpSplash_BG3.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "Monster01",
+            "AssetPath": "Assets/_GameClient/Bundles/RuntimeAccess/Textures/Monster01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "BattleScene",
+            "AssetPath": "Assets/_GameClient/Bundles/Scenes/BattleScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "EmptyScene",
+            "AssetPath": "Assets/_GameClient/Bundles/Scenes/EmptyScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "LobbyScene",
+            "AssetPath": "Assets/_GameClient/Bundles/Scenes/LobbyScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "MenuScene",
+            "AssetPath": "Assets/_GameClient/Bundles/Scenes/MenuScene.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "CircleKiller",
+            "AssetPath": "Assets/_GameClient/Bundles/Scenes/Sample/CircleKiller.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11
+        },
+        {
+            "Address": "Game.Hotfix.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/Game.Hotfix.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "Game.Hotfix.pdb",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/Game.Hotfix.pdb.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "Lighten.Hotfix.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/Lighten.Hotfix.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "Lighten.Hotfix.pdb",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/Lighten.Hotfix.pdb.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "Lighten.Mono.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/Lighten.Mono.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "mscorlib.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/mscorlib.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "OSA.Core.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/OSA.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "System.Core.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/System.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "System.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/System.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "UniRx.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/UniRx.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "UniTask.Addressables.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/UniTask.Addressables.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "UniTask.dll",
+            "AssetPath": "Assets/_GameClient/Bundles/Codes/UniTask.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "MaterialIcon",
+            "AssetPath": "Assets/_GameClient/Bundles/Atlas/Manual/MaterialIcon.spriteatlas",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "WeaponIcon",
+            "AssetPath": "Assets/_GameClient/Bundles/Atlas/Manual/WeaponIcon.spriteatlas",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_configs_configsofluban.bundle",
+            "UnityCRC": 0,
+            "FileHash": "8d6d3fe36a53b2efacc074241690c7f8",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_configs_configsofunity.bundle",
+            "UnityCRC": 0,
+            "FileHash": "d3a88b4105412ff5d75c304946b9e5da",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_prefabs_sample.bundle",
+            "UnityCRC": 0,
+            "FileHash": "6ccd8d458540abfbbace0b97dd7bc9d4",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_ui__template.bundle",
+            "UnityCRC": 0,
+            "FileHash": "40c1066917538aeb91f67e7511e07dad",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_ui_character.bundle",
+            "UnityCRC": 0,
+            "FileHash": "00573a6def06e55e7aa0b0ede49fd804",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_ui_common.bundle",
+            "UnityCRC": 0,
+            "FileHash": "e3aab2dd6d89a4033cd7f69ff23d5f73",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_ui_gamemain.bundle",
+            "UnityCRC": 0,
+            "FileHash": "6fc659decc32c2d903651cd1df33a2c9",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_ui_gamemenu.bundle",
+            "UnityCRC": 0,
+            "FileHash": "73f6568232069882ebea02d3f683d968",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_ui_sample.bundle",
+            "UnityCRC": 0,
+            "FileHash": "7a28c890ebd6b08682021dd5343c9bb8",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_runtimeaccess_textures.bundle",
+            "UnityCRC": 0,
+            "FileHash": "b1ea62652a45c7561039ef1e215486c6",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_scenes.bundle",
+            "UnityCRC": 0,
+            "FileHash": "64dd127e078780b45f4838993a3a2e37",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_scenes_sample.bundle",
+            "UnityCRC": 0,
+            "FileHash": "862c49103f66f3330f02045f7f96a39f",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_codes.bundle",
+            "UnityCRC": 0,
+            "FileHash": "28a08687f2adf1c9425f53869991d313",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets__gameclient_bundles_atlas_manual.bundle",
+            "UnityCRC": 0,
+            "FileHash": "f06fe518e322556558571ef21c440947",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

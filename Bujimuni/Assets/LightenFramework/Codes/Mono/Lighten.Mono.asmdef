@@ -1,0 +1,22 @@
+{
+    "name": "Lighten.Mono",
+    "rootNamespace": "Lighten",
+    "references": [
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "OSA.Core",
+        "UniTask",
+        "UniTask.Addressables",
+        "UniTask.DOTween",
+        "YooAsset"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

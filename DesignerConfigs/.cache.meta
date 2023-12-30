@@ -1,0 +1,15 @@
+﻿E:/Fork/lighten-framework/DesignerConfigs/Datas/__beans__.xlsx,33E7FDED5833E86879EB6C68D492676,9870,1676855358439
+E:/Fork/lighten-framework/DesignerConfigs/Datas/__enums__.xlsx,3E96958722FD88DD254AF36633F21DE,10645,1676855358439
+E:/Fork/lighten-framework/DesignerConfigs/Datas/__tables__.xlsx,2EC753E555281D2EC9FA6B40E85F3132,9716,1676861783302
+E:/Fork/lighten-framework/DesignerConfigs/Datas/character.xlsx,7C10EDDB5026DEDD6F466EA056E6EAA7,10930,1676875197833
+E:/Fork/lighten-framework/DesignerConfigs/Datas/item.xlsx,5E27B42B19E2BBC41436E9CC432C870,11214,1676855358448
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Raw/Configs/game_tbcharacter.json,D1F5BD26745BA9544DA473F7EA17091,238,1676875204082
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Raw/Configs/item_tbitem.json,107DDC4A7C90B68EC4CB824B675F187E,4795,1676867740648
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Scripts/Runtime/Hotfix/GameConfig/Gen/game/Character.cs,26A66F988DE80682BBBDAABDC8230,1726,1676867740648
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Scripts/Runtime/Hotfix/GameConfig/Gen/game/TbCharacter.cs,1F8C7EBADC8CE82963F0701012F5E8,1793,1676867740647
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Scripts/Runtime/Hotfix/GameConfig/Gen/item/EQuality.cs,4A8E63B9228FCC60FA9D339EDFE9AB4C,767,1676861215402
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Scripts/Runtime/Hotfix/GameConfig/Gen/item/Item.cs,740FA933EEB77391AE0E4859FE93397,5838,1676867740649
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Scripts/Runtime/Hotfix/GameConfig/Gen/item/ItemExchange.cs,513B48F3CD28E77AF33F7C244CAD89,1736,1676867740647
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Scripts/Runtime/Hotfix/GameConfig/Gen/item/TbItem.cs,17BAB2883C51BABB2784F221F4367D,1728,1676867740648
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Scripts/Runtime/Hotfix/GameConfig/Gen/Tables.cs,5916104614A57DEC232D1B64A4527AF5,1291,1676867740647
+E:/Fork/lighten-framework/Source/Assets/_GameClient/Scripts/Runtime/Hotfix/GameConfig/Gen/test/AccessFlag.cs,1CA5706C684A86F2F951EE6A999EB45B,628,1676861215401

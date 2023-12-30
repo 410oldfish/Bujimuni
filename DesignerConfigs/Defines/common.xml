@@ -1,0 +1,4 @@
+﻿<module name="common">
+	<table name="TbCharacter" index="id" value="Character" define_from_file="1" mode="map" input="character.xlsx"/>
+	<table name="TbItem" index="id" value="Item" define_from_file="1" mode="map" input="item.xlsx"/>
+</module>
