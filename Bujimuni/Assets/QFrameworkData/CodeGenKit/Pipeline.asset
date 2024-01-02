@@ -18,12 +18,16 @@ MonoBehaviour:
     GameObject: {fileID: 0}
     From: 0
     NameToFullName: []
-    BindInfos: []
+    BindInfos:
+    - TypeName: SpriteRenderer
+      PathToRoot: Square
+      MemberName: Square
     ScriptsFolder: Assets/Scripts/Game
     ClassName: Player
     Namespace: Bujimuni
     MainCode: "using UnityEngine;\r\nusing QFramework;\r\n\r\nnamespace Bujimuni\r\n{\r\n\tpublic
       partial class Player : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
       Code Here\r\n\t\t}\r\n\t}\r\n}\r\n"
-    DesignerCode: "// Generate Id:e530099a-803a-4302-bac0-6fc8b38bcd8c\r\nusing UnityEngine;\r\n\r\nnamespace
-      Bujimuni\r\n{\r\n\tpublic partial class Player\r\n\t{\r\n\r\n\t}\r\n}\r\n"
+    DesignerCode: "// Generate Id:7a717a0e-0da8-44a1-876c-5522cd4111a1\r\nusing UnityEngine;\r\n\r\nnamespace
+      Bujimuni\r\n{\r\n\tpublic partial class Player\r\n\t{\r\n\r\n\t\tpublic SpriteRenderer
+      Square;\r\n\r\n\t}\r\n}\r\n"
