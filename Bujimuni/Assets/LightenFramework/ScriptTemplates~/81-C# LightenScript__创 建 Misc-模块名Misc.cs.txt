@@ -1,6 +1,0 @@
-
-//定义模块使用的常量,枚举,实用函数
-public static class #SCRIPTNAME#
-{
-	
-}

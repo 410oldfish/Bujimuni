@@ -89,8 +89,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Manipulators\ResizeSideHandle.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Procedural\Shape\RoundedRectangleNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Math\Range\MaximumNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Input\CustomInterpolatorNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Math\Trigonometry\DegreesToRadiansNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Input\CustomInterpolatorNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\Enumerations\KeywordShaderStage.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\AssetCallbacks\CreateVFXShaderGraph.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Blackboard\BlackboardUtils.cs" />
@@ -227,8 +227,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Math\Advanced\ReciprocalSquareRootNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Serialization\FakeJsonObject.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Inspector\PropertyDrawers\Vector4PropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Math\Round\CeilingNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Controls\ButtonControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Math\Round\CeilingNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\Targets\BuiltIn\Editor\ShaderGraph\BuiltInStructs.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Util\ValueUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\PreviewManager.cs" />
@@ -533,8 +533,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Graphs\DataStore.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Legacy\GroupData0.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Views\Slots\CubemapSlotControlView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\MeshDeformation\ComputeDeformNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Controls\Texture3DControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\MeshDeformation\ComputeDeformNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Views\Slots\ColorRGBSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\OutputMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Graphs\LightmappingShaderProperties.cs" />
@@ -632,8 +632,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Utility\SplitTextureTransformNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Attributes\SGPropertyDrawerAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\Targets\BuiltIn\Editor\ShaderGraph\Targets\BuiltInSubTarget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Views\Slots\Texture3DSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Input\Texture\SampleTexture2DArrayNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Views\Slots\Texture3DSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Inspector\PropertyDrawers\IShaderPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\ShaderGraphToolbarExtension.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\Enumerations\DisableBatching.cs" />
@@ -685,8 +685,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\Targets\BuiltIn\Editor\AssetPostProcessors\MaterialPostprocessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Nodes\Channel\SplitNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\Enumerations\Platform.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Importers\ShaderGraphImporterEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Data\Graphs\MaterialSlot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Importers\ShaderGraphImporterEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\Descriptors\AdditionalCommandDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Generation\Targets\BuiltIn\Editor\AssetPostProcessors\ShaderGraphMaterialsUpdater.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.9\Editor\Drawing\Views\Slots\LabelSlotControlView.cs" />
@@ -1209,36 +1209,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>Assets\LightenFramework\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sirenix.Utilities">
-      <HintPath>Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\LightenFramework\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="DemiEditor">
-      <HintPath>Assets\LightenFramework\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sirenix.Serialization">
-      <HintPath>Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="DOTweenProEditor">
-      <HintPath>Assets\LightenFramework\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="ConsolePro.Editor">
-      <HintPath>Assets\LightenFramework\Plugins\ConsolePro\Editor\ConsolePro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -1247,14 +1219,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sirenix.Serialization.Config">
-      <HintPath>Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
@@ -1269,32 +1233,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets\LightenFramework\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sirenix.OdinInspector.Attributes">
-      <HintPath>Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sirenix.Utilities.Editor">
-      <HintPath>Assets\LightenFramework\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Markdig">
-      <HintPath>Library\PackageCache\com.mischief.markdownviewer@d4a969bb6f\Editor\Scripts\Renderer\Markdig.dll</HintPath>
+      <HintPath>Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="DOTweenPro">
-      <HintPath>Assets\LightenFramework\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
